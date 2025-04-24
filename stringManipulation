@@ -1,0 +1,7 @@
+let message = "Hi Ani";
+
+console.log(message.toUpperCase());    // "HI ANI"
+console.log(message.toLowerCase());    // "hi ani"
+console.log(message.includes("Ani")); // true
+console.log(message.replace("Ani", "Friend")); // "Hi Friend!"
+console.log(message.slice(0, 2));      // "Hi"
