@@ -1,12 +1,12 @@
-let fullName = "Anirudha"; // global
+let fullName = "Anirudha"; 
 
 function sayHi() {
-  let a = "Hi"; // local
+  let a = "Hi"; 
   console.log(a + " " + fullName);
 }
 
 sayHi();       // Output: Hi Anirudha
-console.log(fullName);     // works
-console.log(a); // Error: greeting is not defined
+console.log(fullName);    
+console.log(a); 
 
 
