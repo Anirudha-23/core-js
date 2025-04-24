@@ -1,6 +1,6 @@
 try {
     let num = prompt("Enter a number:");
-    if (isNaN(num))  //isNan use to check the imput is a number or not
+    if (isNaN(num))  
          {
                 throw "Not a valid number!";
          }
