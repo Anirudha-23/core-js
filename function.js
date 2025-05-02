@@ -1,4 +1,4 @@
-// A simple function to say hello
+//  function to say hello
 function sayHello() {
     console.log("Hello!");
   }
